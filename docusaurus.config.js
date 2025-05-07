@@ -18,15 +18,15 @@ const config = {
   url: 'https://mohamad-j.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/nf-ln/',
+  baseUrl: '/nf-lm/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mohamad-j', // Usually your GitHub org/user name.
-  projectName: 'nf-ln', // Usually your repo name.
+  projectName: 'nf-lm', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -47,22 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mohamad-j/nf-ln/tree/main',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/mohamad-j/nf-ln/tree/main',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/mohamad-j/nf-lm/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -137,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} nf-ln.`,
+        copyright: `Copyright © ${new Date().getFullYear()} nf-lm.`,
       },
       prism: {
         theme: prismThemes.github,

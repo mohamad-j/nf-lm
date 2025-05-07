@@ -18,12 +18,12 @@ const config = {
   url: 'https://mohamad-j.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/pharma-doc/',
+  baseUrl: '/nf-ln/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mohamad-j', // Usually your GitHub org/user name.
-  projectName: 'pharma-doc', // Usually your repo name.
+  projectName: 'nf-ln', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mohamad-j/pharma-doc/tree/main',
+            'https://github.com/mohamad-j/nf-ln/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -58,7 +58,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mohamad-j/pharma-doc/tree/main',
+            'https://github.com/mohamad-j/nf-ln/tree/main',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -107,15 +107,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Research',
-                to: '/docs/research/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
@@ -146,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PHARMA-DOC.`,
+        copyright: `Copyright © ${new Date().getFullYear()} nf-ln.`,
       },
       prism: {
         theme: prismThemes.github,

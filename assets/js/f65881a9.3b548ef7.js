@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscaffold_doc=self.webpackChunkscaffold_doc||[]).push([[63],{8690:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/nf-lm/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

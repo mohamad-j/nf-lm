@@ -26,7 +26,7 @@ const config = {
   projectName: 'nf-lm', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -48,6 +48,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/mohamad-j/nf-lm/tree/main',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl: 'https://github.com/mohamad-j/nf-lm/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -111,10 +116,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',

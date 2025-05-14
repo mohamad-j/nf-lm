@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscaffold_doc=self.webpackChunkscaffold_doc||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"welcome","permalink":"/nf-lm/blog/welcome","unlisted":false,"date":"2025-05-07T22:14:37.000Z"}]}')}}]);
